@@ -16,7 +16,7 @@ export interface IKnowledgeSearchInputWebPartProps {
 export default class KnowledgeSearchInputWebPart extends BaseClientSideWebPart<IKnowledgeSearchInputWebPartProps> {
 
   public _sendSearch(): void {
-    location.href = this.context.pageContext.web.absoluteUrl+'/SitePages/Knowledge-search.aspx?title='+document.getElementById('knowledgeSearchTxt')['value']
+    location.href = this.context.pageContext.web.absoluteUrl+'/SitePages/Knowledge-search.aspx?title='+document.getElementById('knowledgeSearchTxt')['value'];
   }
   
   public render(): void {
