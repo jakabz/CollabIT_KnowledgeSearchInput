@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "17069ba5-bc1d-4fd8-b903-5634db9cf75a",
+  "alias": "KnowledgeSearchInputWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Knowledge Search Input" },
+    "description": { "default": "Knowledge Search Input description" },
+    "officeFabricIconFontName": "DocumentSearch",
+    "properties": {
+      "placeholder": "Enter your search terms..."
+    }
+  }]
+}
